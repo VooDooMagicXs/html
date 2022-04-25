@@ -1,0 +1,114 @@
+:root{
+    --main-color: #cccccc;
+    --text-color: #131c26;
+    --main-font: bold 20px Arial;
+    --all-padding-left:50px;
+    
+}
+.forAll{
+    padding-left: var(--all-padding-left);
+    background-color:var(--main-color);
+}
+.maintitle,
+    ul {
+        display: flex;
+        margin-top: 50px;
+        font-size:50px;
+    }
+
+.toplist{
+    font-size: 25px;
+    padding-left:150px;
+    margin-left: 150px;
+    margin-top: -70px;
+}
+
+.liset{
+    display: inline;
+    padding-left:90px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.imageOne{
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+.secondText{
+    padding-top: 70px;
+    font-size: 40px;
+    word-spacing: 10px;
+}
+.secondTextsmall{
+    margin-top: -10px; 
+    font-size:20px;
+    line-height:30px;
+}
+.bigimage{
+    margin-top: -250px;
+    margin-left: 770px;
+    height: 320px;
+    width: 400px;
+}
+.accent{
+   margin-top: -40px;
+   background-image: url("../img/krasnii.jpg");
+   background-position: center;
+   font-size: 20px;
+   padding-top: 5px;
+   width:230px;
+   height: 30px; 
+   padding-left: 110px;
+}
+
+.flex{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.item{
+    margin-top: 40px;
+	display: flex;
+    font-size: 25px;
+	flex-direction: column;
+	flex-basis: content;
+	flex: 1; 
+	height: 30%;
+}
+.secphoto{
+   display: block;
+   height: 50px;
+   width: 50px;
+}
+.anotherAccent1{
+   margin-top: -20px;
+   background-image: url("../img/krasnii.jpg");
+   font-size: 20px;   padding-top: 5px;
+   width:160px;
+   height: 30px; 
+   text-align: center;
+}
+.anotherAccent2{
+   margin-top: -20px;
+   background-image: url("../img/green-42.jpg");
+   background-position: center;
+   font-size: 20px;
+   padding-top: 5px;
+   width:160px;
+   height: 30px;
+   text-align: center;
+}
+.anotherAccent3{
+   margin-top: -20px;
+   background-image: url("../img/1613154274_2-p-zheltii-tsvet-fon-odnotonnii-2.jpg");
+   background-position: center;
+   font-size: 20px;
+   padding-top: 5px;
+   width:160px;
+   height: 30px;
+   text-align: center;
+}
